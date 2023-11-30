@@ -1,0 +1,7 @@
+- relative + absolute : 
++remove to flow of dom, element will take up the space
+- fixed : 
++ fixed with windown brower
+- sticky :
++ treat as fixed until its parent is off screen.
+

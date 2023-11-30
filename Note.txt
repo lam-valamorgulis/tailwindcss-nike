@@ -1,0 +1,33 @@
+I- NOTE: 
+    1.config css
+    + how to config a css framework - tailwind css and radix UI ? :
+        . Tailwind css : for create a css property
+            - https://tailwindcss.com/docs/installation
+            - How to create custom css (apply tailwindcss) for resuseable purpose:
+                . Using @apply :https://tailwindcss.com/docs/adding-custom-styles
+        . Radix UI : for theme and component : typoraphy, front, shape, dark mode
+            - https://www.radix-ui.com/themes/docs/overview/getting-started
+            - npm install @radix-ui/themes
+            - How to customize theme : typoraphy, color
+                . typoraphy with nextjs: https://www.radix-ui.com/themes/docs/theme/typography
+                . radix ui can create e theme panel help to easy modify theme
+    2.config project folder
+    + how to set up a folder structure ? 
+            - App will always have a : 
+                + Resuseable component: appear in many files like button, skeleton, pagination
+                + constants : object, function 
+            - lib : action : interaction with backend
+            - database: config database
+            - types: for define typescript
+            - .env.local : dont push code to github, only keep in local
+II. Build project :
+1. Design NavBar:
+- Position of the navbar : does navbar need to to be at sticky or fixed to the top ?
+- Reponsive with smaller device ? 
+- Does it need to make a differ navbar for mobile device ?
+- Nav bar design algin with remain component
+
+
+                
+
+
