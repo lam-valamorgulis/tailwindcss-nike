@@ -4,4 +4,8 @@
 + fixed with windown brower
 - sticky :
 + treat as fixed until its parent is off screen.
+- margin-auto:
+- flex-1 : will shrink another element and expand current element in the flex container
+- how to control responsive: show in range of screen and hidden remain of screen width
+
 

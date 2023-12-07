@@ -5,7 +5,7 @@ import { navLinks } from "../constants";
 export default function Nav() {
   return (
     <header className="padding-x py-8 absolute z-10 w-full">
-      <nav className="flex justify-evenly items-center max-container">
+      <nav className="flex justify-between items-center max-container">
         <a href="/">
           <img
             src={headerLogo}
@@ -15,7 +15,7 @@ export default function Nav() {
             className="m-0 w-[129px] h-[29px]"
           />
         </a>
-        <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
+        <ul className="flex-1 flex justify-center items-center gap-12 max-lg:hidden">
           {navLinks.map((item) => (
             <li key={item.label}>
               <a

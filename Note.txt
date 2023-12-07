@@ -21,9 +21,22 @@ I- NOTE:
             - types: for define typescript
             - .env.local : dont push code to github, only keep in local
 II. Build project :
+0. Framwork to code a element :
+- how many child element inside componet can be devide ?
+- what is the layout of the child element when responsive
+- Parent element contain:
++ Position in the dom : flow the dom or get rid of flow dom (relative, absolute)
++ padding and margin should be algin with other component:
+    . responsive check on large or sm device: what is the layout of child, the parent container
+    algin padding margin (bottom and top) algin with other component
+
+
 1. Design NavBar:
-- Position of the navbar : does navbar need to to be at sticky or fixed to the top ?
-- Reponsive with smaller device ? 
+-padding and margin for navbar : should be differ in mobile and laptop device
+- Position of the navbar : 
++ does navbar need to to be at sticky or fixed to the top ?
+- Reponsive with smaller device : which element should appear or hidden
+in mobile device
 - Does it need to make a differ navbar for mobile device ?
 - Nav bar design algin with remain component
 

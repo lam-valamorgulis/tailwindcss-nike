@@ -1,10 +1,22 @@
 import Nav from "./components/Nav";
+import {
+  CustomerReviews,
+  Footer,
+  Hero,
+  PopularProducts,
+  Services,
+  SpecialOffer,
+  Subscribe,
+  SuperQuality,
+} from "./sections";
 
 export default function App() {
   return (
-    <main className="relative bg-red-500 w-full">
+    <main className="relative">
       <Nav />
-      {/* <h1 className="">Hello world!</h1> */}
+      <section className="xl:padding-x padding-b">
+        <Hero />
+      </section>
     </main>
   );
 }
